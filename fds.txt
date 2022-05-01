@@ -1,0 +1,12 @@
+BDD Format>>Behaviour driven development
+
+Gherkins
+
+Feature: Login Functionality
+Scenario: Valid Login
+Given user should navigate url "localhost:100"
+Then login page should be appear
+When user enters valid userid and valid password
+And click on login button
+Then user should be navigated to home page
+And can see logout link appear on top right corner
